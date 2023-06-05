@@ -90,10 +90,10 @@ ArithmeticMean(array);
 
 void ArithmeticMean(int[,] array)
 {
-    double result = 0;
+   
     for(int i = 0; i < array.GetLength(1); i++)
     {
-        
+        double result = 0; 
         for(int j = 0; j < array.GetLength(0); j++)
         {
             result += array[j,i]; 
